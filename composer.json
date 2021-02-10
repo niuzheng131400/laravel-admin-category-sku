@@ -1,0 +1,33 @@
+{
+    "name": "niuzheng131400/sku",
+    "description": "laravel-admin-category-sku",
+    "type": "library",
+    "keywords": ["laravel-admin", "extension"],
+    "homepage": "https://github.com/niuzheng131400/laravel-admin-category-sku",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "niuzheng131400",
+            "email": "771036148@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": "~1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JadeKun\\Sku\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JadeKun\\Sku\\SkuServiceProvider"
+            ]
+        }
+    }
+}
